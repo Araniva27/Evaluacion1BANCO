@@ -42,9 +42,9 @@ public class Lacteos extends Producto implements Imprimir {
     @Override
     public String imprimirDatos() {
         return "Id = " + this.getId() +
-                "Nombre del producto: " + this.getNombre() +
-                "Precio ($): " + this.getPrecio() +
-                "Cantidad : " + this.getCantidad()+
-                "Proteina: " +this.getProteinas();
+                " Nombre del producto: " + this.getNombre() +
+                " Precio ($): " + this.getPrecio() +
+                " Cantidad : " + this.getCantidad()+
+                " Proteina: " +this.getProteinas();
     }
 }

@@ -14,5 +14,7 @@ public class PruebaBolsa {
 
         BolsaSupermercadoModelo<Limpieza> bolsaLimpieza = new BolsaSupermercadoModelo<Limpieza>();
         bolsaLimpieza.addProducto(new Limpieza("Toalla",2.78, "Tela",2));
+        bolsaLimpieza.addProducto(new Limpieza("Detergente",7.58, "Quimicos",5));
+        System.out.println(bolsaLimpieza.mostrarDatos());
     }
 }

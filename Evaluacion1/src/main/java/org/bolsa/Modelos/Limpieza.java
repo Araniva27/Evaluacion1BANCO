@@ -44,9 +44,9 @@ public class Limpieza extends Producto implements Imprimir {
     @Override
     public String imprimirDatos() {
         return "Id = " + this.getId() +
-                "Nombre del producto: " + this.getNombre() +
-                "Precio ($): " + this.getPrecio() +
-                "Componentes : " + this.getComponentes()+
-                "Litros: " +this.getLitros();
+                " Nombre del producto: " + this.getNombre() +
+                " Precio ($): " + this.getPrecio() +
+                " Componentes : " + this.getComponentes()+
+                " Litros: " +this.getLitros();
     }
 }

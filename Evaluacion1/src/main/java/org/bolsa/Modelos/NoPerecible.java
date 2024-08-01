@@ -44,9 +44,9 @@ public class NoPerecible extends Producto implements Imprimir {
     @Override
     public String imprimirDatos() {
         return "Id = " + this.getId() +
-                "Nombre del producto: " + this.getNombre() +
-                "Precio ($): " + this.getPrecio() +
-                "Calorias : " + this.getCalorias()+
-                "Contenido: " +this.getContenido();
+                " Nombre del producto: " + this.getNombre() +
+                " Precio ($): " + this.getPrecio() +
+                " Calorias : " + this.getCalorias()+
+                " Contenido: " +this.getContenido();
     }
 }
